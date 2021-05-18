@@ -24,3 +24,37 @@ C:\Users\Leslie Saucedo\source\repos\CheersAndBeers\CheersAndBeers\obj\Debug\Che
 C:\Users\Leslie Saucedo\source\repos\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form9.resources
 C:\Users\Leslie Saucedo\source\repos\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form14.resources
 C:\Users\Leslie Saucedo\source\repos\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form15.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\CheersAndBeers.exe.config
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\CheersAndBeers.exe
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\CheersAndBeers.pdb
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\Guna.UI2.dll
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.csprojAssemblyReference.cache
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form1.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form10.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form11.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form12.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form13.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form14.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form15.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form2.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form3.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form4.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form5.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form6.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form7.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form8.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Form9.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.Properties.Resources.resources
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.csproj.GenerateResource.cache
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.csproj.CopyComplete
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.exe
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\obj\Debug\CheersAndBeers.pdb
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Security.AccessControl.dll
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Security.Permissions.dll
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Security.AccessControl.xml
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Security.Permissions.xml
+C:\Users\edgar\Documents\projects\barPIA\CheersAndBeers\CheersAndBeers\bin\Debug\System.Security.Principal.Windows.xml

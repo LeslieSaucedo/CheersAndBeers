@@ -66,6 +66,7 @@ namespace CheersAndBeers
         {
             openChildForm(new Form2());
             hideSubMenu();
+
         }
 
         private void buttonBuscar_Click(object sender, EventArgs e)
