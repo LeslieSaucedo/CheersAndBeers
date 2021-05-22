@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\cheersandbeers.cs" />
+    <Compile Include="classes\clsempleados.cs" />
     <Compile Include="classes\connection.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

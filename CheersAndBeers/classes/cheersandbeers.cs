@@ -13,13 +13,6 @@ namespace CheersAndBeers.classes
 
         connection cn = new connection();
 
-        public DataTable MostrarPlacas()
-        {
-            SqlDataAdapter da = new SqlDataAdapter("PENDIENTE", cn.LeerCadena());
-            da.SelectCommand.CommandType = CommandType.StoredProcedure;
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
-        }
+ 
     }
 }

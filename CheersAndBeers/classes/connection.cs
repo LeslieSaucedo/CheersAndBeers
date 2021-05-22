@@ -11,19 +11,26 @@ namespace CheersAndBeers.classes
 {
     public class connection
     {
-        public SqlConnection LeerCadena()
-        {
-            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["edgardo"].ConnectionString); // Cambiar "edgardo" por su nombre
-            if (cn.State == ConnectionState.Open)
-            {
-                cn.Close();
-            }
-            else
-            {
-                cn.Open();
-            }
-            return cn;
+        
+        private SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["shomer"].ConnectionString); // Cambiar "edgardo" por su nombre
 
+        public SqlConnection abrirconexion()
+        {
+           if (cn.State == ConnectionState.Closed)
+           
+                cn.Open();
+           return cn;
+                
         }
+            
+        public SqlConnection cerrarconexion()
+        {
+            if (cn.State == ConnectionState.Open)
+              cn.Close();
+            return cn;
+            
+        }
+          
+        
     }
 }
