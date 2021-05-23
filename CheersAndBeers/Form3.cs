@@ -49,7 +49,8 @@ namespace CheersAndBeers
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            clsempleados objEmp = new clsempleados();
+            guna2DataGridView1.DataSource = objEmp.Listarempleados();
         }
     }
 }
