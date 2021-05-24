@@ -27,7 +27,7 @@ namespace CheersAndBeers
             listarestado();
             listarmunicipio();
         }
-
+        
         private void listarpais()
         {
             clsempleados objEmp = new clsempleados();
@@ -51,7 +51,7 @@ namespace CheersAndBeers
             cmbmunicipio.DisplayMember = ("nombremunicipio");
             cmbmunicipio.ValueMember = ("id_municipio");
         }
-
+        
         private void guna2HtmlLabel1_Click_1(object sender, EventArgs e)
         {
 
@@ -67,12 +67,13 @@ namespace CheersAndBeers
         {
 
         }
-
+        
         private void btnagregar_Click(object sender, EventArgs e)
         {
             objEmpleados.insertarempleados(txtnombre.Text, txtappat.Text, txtapmat.Text, txttelefono.Text, txtcorreo.Text, 
-                Convert.ToInt32(cmbpais.SelectedValue),Convert.ToInt32(cmbestado.SelectedValue),Convert.ToInt32(cmbmunicipio.SelectedValue));
+               Convert.ToInt32(cmbpais.SelectedValue),Convert.ToInt32(cmbestado.SelectedValue),Convert.ToInt32(cmbmunicipio.SelectedValue));
             MessageBox.Show("Empleado agregado");
         }
+        
     }
 }

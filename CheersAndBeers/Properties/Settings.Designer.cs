@@ -26,8 +26,8 @@ namespace CheersAndBeers.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=EDGARDODESKTOP\\MSSQLSERVER1;Initial Catalog=PIAbar;Integrated Securit" +
-            "y=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=EDGARDODESKTOP\\MSSQLSERVER1;Initial Catalog=beersandcheers;Integrated" +
+            " Security=True;MultipleActiveResultSets=true")]
         public string edgardo {
             get {
                 return ((string)(this["edgardo"]));

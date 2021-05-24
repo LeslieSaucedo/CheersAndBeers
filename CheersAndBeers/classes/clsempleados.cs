@@ -8,12 +8,12 @@ using System.Data.SqlClient;
 
 namespace CheersAndBeers.classes
 {
-    class clsempleados
+    public class clsempleados
     {
         connection cn = new connection();
         SqlCommand comando = new SqlCommand();
         SqlDataReader leerfilas;
-
+        
         public DataTable Listarpaises()
         {
             DataTable tabla = new DataTable();
@@ -54,7 +54,7 @@ namespace CheersAndBeers.classes
             return tabla;
 
         }
-
+        
         public void insertarempleados( string nombre_emp, string ap_pat_emp, string ap_mat_emp,string telefono_emp, string correo_emp, 
                                       int id_pais, int id_estado, int id_municipio) {
             comando.Connection = cn.abrirconexion();
@@ -72,6 +72,7 @@ namespace CheersAndBeers.classes
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
         }
+        
         public DataTable Listarempleados()
         {
             DataTable tabla = new DataTable();
@@ -85,5 +86,16 @@ namespace CheersAndBeers.classes
             return tabla;
 
         }
+
+        public DataTable MostrarEmpleados()
+        {
+            SqlDataAdapter da = new SqlDataAdapter("SP_MOSTRARTABLAEMPLEADOS",cn.abrirconexion());
+            da.SelectCommand.CommandType = CommandType.StoredProcedure;
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+        
+        
     }
 }
