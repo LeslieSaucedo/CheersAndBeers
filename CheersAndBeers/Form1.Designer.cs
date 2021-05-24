@@ -31,7 +31,6 @@ namespace CheersAndBeers
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelSidemenu = new System.Windows.Forms.Panel();
-            this.buttonFacturacion = new System.Windows.Forms.Button();
             this.buttonVentas = new System.Windows.Forms.Button();
             this.panelProductosSubmenu = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
@@ -66,7 +65,6 @@ namespace CheersAndBeers
             // 
             this.panelSidemenu.AutoScroll = true;
             this.panelSidemenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.panelSidemenu.Controls.Add(this.buttonFacturacion);
             this.panelSidemenu.Controls.Add(this.buttonVentas);
             this.panelSidemenu.Controls.Add(this.panelProductosSubmenu);
             this.panelSidemenu.Controls.Add(this.buttonProductos);
@@ -82,21 +80,6 @@ namespace CheersAndBeers
             this.panelSidemenu.Size = new System.Drawing.Size(188, 621);
             this.panelSidemenu.TabIndex = 0;
             this.panelSidemenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSidemenu_Paint);
-            // 
-            // buttonFacturacion
-            // 
-            this.buttonFacturacion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonFacturacion.FlatAppearance.BorderSize = 0;
-            this.buttonFacturacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFacturacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonFacturacion.Location = new System.Drawing.Point(0, 797);
-            this.buttonFacturacion.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonFacturacion.Name = "buttonFacturacion";
-            this.buttonFacturacion.Size = new System.Drawing.Size(171, 37);
-            this.buttonFacturacion.TabIndex = 8;
-            this.buttonFacturacion.Text = "Facturacion";
-            this.buttonFacturacion.UseVisualStyleBackColor = true;
-            this.buttonFacturacion.Click += new System.EventHandler(this.buttonFacturacion_Click);
             // 
             // buttonVentas
             // 
@@ -484,7 +467,6 @@ namespace CheersAndBeers
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button buttonClientes;
-        private System.Windows.Forms.Button buttonFacturacion;
         private System.Windows.Forms.Button buttonVentas;
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.PictureBox pictureBox1;

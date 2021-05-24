@@ -30,16 +30,16 @@ namespace CheersAndBeers
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.opcionmensje = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dgvEmpleados = new System.Windows.Forms.DataGridView();
             this.btnElminar = new Guna.UI2.WinForms.Guna2Button();
             this.txtActualId = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.dgvEmpleados = new System.Windows.Forms.DataGridView();
+            this.opcionmensje = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel1.SuspendLayout();
-            this.opcionmensje.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
+            this.opcionmensje.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -52,44 +52,20 @@ namespace CheersAndBeers
             this.panel1.Controls.Add(this.guna2HtmlLabel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(812, 621);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // guna2HtmlLabel2
+            // dgvEmpleados
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(394, 236);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(0, 0);
-            this.guna2HtmlLabel2.TabIndex = 0;
-            this.guna2HtmlLabel2.Text = null;
-            this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
-            // 
-            // opcionmensje
-            // 
-            this.opcionmensje.BackColor = System.Drawing.SystemColors.GrayText;
-            this.opcionmensje.Controls.Add(this.guna2HtmlLabel1);
-            this.opcionmensje.Dock = System.Windows.Forms.DockStyle.Top;
-            this.opcionmensje.Location = new System.Drawing.Point(0, 0);
-            this.opcionmensje.Name = "opcionmensje";
-            this.opcionmensje.ShadowDecoration.Parent = this.opcionmensje;
-            this.opcionmensje.Size = new System.Drawing.Size(812, 90);
-            this.opcionmensje.TabIndex = 24;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(44, 27);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(263, 35);
-            this.guna2HtmlLabel1.TabIndex = 2;
-            this.guna2HtmlLabel1.Text = "Eliminar empleado";
+            this.dgvEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmpleados.Location = new System.Drawing.Point(33, 216);
+            this.dgvEmpleados.Name = "dgvEmpleados";
+            this.dgvEmpleados.Size = new System.Drawing.Size(695, 353);
+            this.dgvEmpleados.TabIndex = 55;
+            this.dgvEmpleados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmpleados_CellContentClick);
             // 
             // btnElminar
             // 
@@ -128,6 +104,7 @@ namespace CheersAndBeers
             this.txtActualId.ShadowDecoration.Parent = this.txtActualId;
             this.txtActualId.Size = new System.Drawing.Size(232, 27);
             this.txtActualId.TabIndex = 53;
+            this.txtActualId.TextChanged += new System.EventHandler(this.txtActualId_TextChanged);
             // 
             // guna2HtmlLabel3
             // 
@@ -138,15 +115,40 @@ namespace CheersAndBeers
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(98, 18);
             this.guna2HtmlLabel3.TabIndex = 52;
             this.guna2HtmlLabel3.Text = "Id de empleado";
+            this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
-            // dgvEmpleados
+            // opcionmensje
             // 
-            this.dgvEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmpleados.Location = new System.Drawing.Point(33, 216);
-            this.dgvEmpleados.Name = "dgvEmpleados";
-            this.dgvEmpleados.Size = new System.Drawing.Size(695, 353);
-            this.dgvEmpleados.TabIndex = 55;
-            this.dgvEmpleados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmpleados_CellContentClick);
+            this.opcionmensje.BackColor = System.Drawing.SystemColors.GrayText;
+            this.opcionmensje.Controls.Add(this.guna2HtmlLabel1);
+            this.opcionmensje.Dock = System.Windows.Forms.DockStyle.Top;
+            this.opcionmensje.Location = new System.Drawing.Point(0, 0);
+            this.opcionmensje.Name = "opcionmensje";
+            this.opcionmensje.ShadowDecoration.Parent = this.opcionmensje;
+            this.opcionmensje.Size = new System.Drawing.Size(812, 90);
+            this.opcionmensje.TabIndex = 24;
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(44, 27);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(263, 35);
+            this.guna2HtmlLabel1.TabIndex = 2;
+            this.guna2HtmlLabel1.Text = "Eliminar empleado";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(394, 236);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(3, 2);
+            this.guna2HtmlLabel2.TabIndex = 0;
+            this.guna2HtmlLabel2.Text = null;
+            this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
             // Form4
             // 
@@ -155,14 +157,14 @@ namespace CheersAndBeers
             this.ClientSize = new System.Drawing.Size(812, 621);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form4";
             this.Text = "Form4";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).EndInit();
             this.opcionmensje.ResumeLayout(false);
             this.opcionmensje.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).EndInit();
             this.ResumeLayout(false);
 
         }
