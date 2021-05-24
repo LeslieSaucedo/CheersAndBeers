@@ -12,7 +12,7 @@ namespace CheersAndBeers.classes
     public class connection
     {
         
-        private SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["shomer"].ConnectionString); // Cambiar "edgardo" por su nombre
+        private SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["edgardo"].ConnectionString); // Cambiar "edgardo" por su nombre
 
         public SqlConnection abrirconexion()
         {

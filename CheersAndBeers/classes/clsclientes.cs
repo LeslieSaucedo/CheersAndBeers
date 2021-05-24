@@ -55,13 +55,12 @@ namespace CheersAndBeers.classes
 
         }
 
-        public void insertarcliente(int id_factura, string nombre_c, string ap_pat_c, string ap_mat_c, string telefono_c, string correo_c,
+        public void insertarcliente(string nombre_c, string ap_pat_c, string ap_mat_c, string telefono_c, string correo_c,
                                       int id_pais, int id_estado, int id_municipio)
         {
             comando.Connection = cn.abrirconexion();
             comando.CommandText = "insertarcliente";
             comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("@id_factura", id_factura);
             comando.Parameters.AddWithValue("@nombre_c", nombre_c);
             comando.Parameters.AddWithValue("@ap_pat_c", ap_pat_c);
             comando.Parameters.AddWithValue("@ap_mat_c", ap_mat_c);

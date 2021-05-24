@@ -39,7 +39,7 @@ namespace CheersAndBeers
         {
             int numId = int.Parse(txtMat.Text);
 
-            SqlCommand comando = new SqlCommand("select * from dbo.cliente where id_cliente = " + numId, cn.abrirconexion());
+            SqlCommand comando = new SqlCommand("select * from dbo.clientes where id_cliente = " + numId, cn.abrirconexion());
 
 
             SqlDataReader registro = comando.ExecuteReader();
@@ -54,7 +54,6 @@ namespace CheersAndBeers
                 txtEstado.Text = registro["id_estado"].ToString();
                 txtPais.Text = registro["id_pais"].ToString();
                 txtMuni.Text = registro["id_municipio"].ToString();
-                txtFac.Text = registro["id_factura"].ToString();
             }
         }
 

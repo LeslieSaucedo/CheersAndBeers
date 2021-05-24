@@ -55,9 +55,9 @@ namespace CheersAndBeers
 
         private void btnagregar_Click(object sender, EventArgs e)
         {
-            objEmpleados.insertarcliente(Convert.ToInt32(txtfactura), txtnombre.Text, txtappat.Text, txtapmat.Text, txttelefono.Text, txtcorreo.Text,
+            objEmpleados.insertarcliente(txtnombre.Text, txtappat.Text, txtapmat.Text, txttelefono.Text, txtcorreo.Text,
                Convert.ToInt32(cmbpais.SelectedValue), Convert.ToInt32(cmbestado.SelectedValue), Convert.ToInt32(cmbmunicipio.SelectedValue));
-            MessageBox.Show("Empleado agregado");
+            MessageBox.Show("Cliente agregado");
         }
     }
 }
